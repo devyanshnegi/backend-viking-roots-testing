@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-=cldztbc4jg&xl0!x673!*v2_=p$$eu)=7*f#d0#zs$44xx-h^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app','localhost']
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app','localhost','.railway.app',]
 
 # Application definition
 
@@ -66,9 +66,10 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
+    'https://frontend-viking-roots-testing-ot81.vercel.app/'
 ]
 
-CORS_ALLOW_ALL_ORIGINS = True # Only for development
+# CORS_ALLOW_ALL_ORIGINS = True # Only for development
 
 # GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
 
