@@ -66,7 +66,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:3000",
     "http://127.0.0.1:5173",
-    'https://frontend-viking-roots-testing-ot81.vercel.app/'
+    'https://frontend-viking-roots-testing.vercel.app'
 ]
 
 # CORS_ALLOW_ALL_ORIGINS = True # Only for development
